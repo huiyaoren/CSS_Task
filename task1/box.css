@@ -1,0 +1,23 @@
+*{
+	margin: 10px;
+	padding: 10px;
+}
+
+.center{
+	text-align: center;
+}
+
+.bigbox{		
+	width: 600px;
+	height: 600px;
+}
+
+.smlbox{
+	border-radius: 10px;
+	background: orange;
+	width: 29%;
+	height: 29%;
+	margin: 1%;
+	padding: 1%;
+	float: left;
+}
