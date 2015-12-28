@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Microsoft Yahei', sans-serif;
+}
+
+.container {
+
+}
+
+.header {
+    width: 100vw;
+    height: 7vh;
+    margin-bottom: 1px;
+    background: rgb(41, 189, 224);
+    font-size: 4vh;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-top: 1.5vh;
+}
+
+.header img {
+    height: 5vh;
+}
+
+.header_home {
+    width: 15vw;
+    float: left;
+}
+
+.header_text {
+    width: 70vw;
+    float: left;
+}
+
+.header_more {
+    width: 15vw;
+    float: left;
+}
+
+.main {
+    width: 100vw;
+    height: 50vh;
+    background: rgb(41, 189, 224);
+    text-align: center;
+}
+
+.main_img {
+    padding-top: 5vh;
+}
+
+.main_img img {
+    height: 20vh;
+}
+
+.main_text {
+    
+}
+
+.main_info {
+
+}
+
+.item {
+    background: white;
+}
+
+.item_1 {
+}
+
+.item_2 {
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 12vh;
+    background: rgba(41, 189, 224, .5);
+    color: white;
+    font-size: 4vh;
+    font-weight: 900;
+    text-align: center;
+}
+
+.footer_button1 {
+    float: left;
+    width: 40vw;
+    height: 8vh;
+    border-radius: 2vh;
+    margin: 2vh 5vw;
+    background: rgb(246, 111, 111);
+}
+
+.footer_button2 {
+    float: left;
+    width: 40vw;
+    height: 8vh;
+    border-radius: 2vh;
+    margin: 2vh 5vw;
+    background: rgb(251, 180, 53);
+}
+
