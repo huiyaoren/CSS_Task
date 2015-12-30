@@ -7,7 +7,6 @@
 
 .container {}
 
-
 /* header */
 .header {
 	width: 100vw;
@@ -45,7 +44,7 @@
 /* main */
 .main {
 	padding-top: 2vh;
-	padding-bottom: 2vh; 
+	padding-bottom: 2vh;
 	width: 100vw;
 	background: rgb(41, 189, 224);
 	text-align: center;
@@ -61,7 +60,7 @@
 }
 
 .main_text {
-	padding: 2vh 15vw;
+	padding: 2vh 10vmax;
 	color: rgb(255, 200, 101);
 	font-size: 3vh;
 	font-weight: 900;
@@ -76,6 +75,7 @@
 }
 
 .main_info_job {
+    width: 70vw;
 }
 
 .main_info_job div {
@@ -85,14 +85,8 @@
 .main_info_key {
 }
 
-.main_info_key div {
-	width: 22.5vh;
-}
-
-
 /* item */
 .item {
-	background: white;
 	color: black;
 	background: rgb(200, 200, 200);
 	font-size: 2.5vh;
@@ -110,7 +104,7 @@
 .item_day {	
 	font-weight: 900;
 	float: left;
-	width: 45vw;
+	width: 50vw;
 }
 
 .item_time {
@@ -118,15 +112,19 @@
 	padding-top: .5vh;
 	height: 4vh;
 	font-size: 2vh;
-	width: 25ve;
 }
 
-.item_msg {	
-	padding: 0 2vw; 
+.item_msg {
 	font-size: 2vh;
 	color: rgb(200,200,200);
+    float: left;
+    width: 70vw;
 }
 
+.item_msg p {
+    float: left;
+    width: 44vh;
+}
 
 /* footer */
 .footer {
