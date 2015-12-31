@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="index.css">
     <title></title>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/classie.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="nav"></div>
-        <div class="content">
-            <div class="content_header"><img src="img/header_03.png"></div>
+        <div class="nav">
+            <div class="nav_header"></div>
+            <div class="nav_menu">
+                <div class="nav_menu_item"><img src="img/menu_03.png"><p>公告</p></div>
+                <div class="nav_menu_item"><img src="img/menu_07.png"><p>设置</p></div>
+                <div class="nav_menu_item"><img src="img/menu_11.png"><p>帮助</p></div>
+                <div class="nav_menu_item"><img src="img/menu_18.png"><p>关于</p></div>
+            </div>
+        </div>
+        <div class="content" id="content">
+            <div class="content_header"><img id="showLeftPush" src="img/header_03.png"></div>
             <div class="content_last">
                 <p>上次游戏：捉鬼猜词版</p>
                 <img src="img/content_07.png">
@@ -24,6 +34,14 @@
                 <div class="content_game_arrow"><img src="img/content_10.png"></div>
             </div>
         </div>
+        <script>
+            var  body = document.getElementById('content'),
+                    showLeftPush = document.getElementById('showLeftPush');
+            showLeftPush.onclick = function() {
+                classie.toggle(this, 'active');
+                classie.toggle(body, 'cbp-spmenu-push-toright');
+            }
+        </script>
     </div>
 </body>
 </html>
