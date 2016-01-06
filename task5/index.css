@@ -18,9 +18,9 @@
     transition: 1s;
     -webkit-transition: 1s;
     -moz-transition: 1s;
-    transform: translateX(77.03125%) translateY(7.7vh);
-    -webkit-transform: translateX(77.03125%) translateY(7.7vh);
-    -moz-transform: translateX(77.03125%) translateY(7.7vh);
+    transform: translateX(80vw) translateY(7.7vh);
+    -webkit-transform: translateX(80vw) translateY(7.7vh);
+    -moz-transform: translateX(80vw) translateY(7.7vh);
     box-shadow: 2px 7px 20px rgb(150,150,150);
 }
 
@@ -52,7 +52,7 @@
 
 .nav_menu_item p {
     margin-left: 5vw;
-    margin-right: 40vw;
+    margin-right: 45vw;
     height: 5vh;
     font-size: 3vh;
     font-weight: 400;
