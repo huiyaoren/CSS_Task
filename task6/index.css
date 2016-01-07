@@ -69,14 +69,25 @@
     font-size: 2vh;
 }
 
+.main_content_triangle {
+    position: relative;
+    bottom: 3vmin;
+    left: 15vw;
+    float: left;
+    border-right: 1.5vmin solid transparent;
+    border-left: 1.5vmin solid transparent;
+    border-top: 3vmin solid rgb(185,233,245);
+}
+
 .main_content_text {
-    padding-right: 45vw;
+    padding-left: 10vw;
+    text-align: left;
 }
 
 .main_block {
     background: white;
 
-    margin:  3vmin 5vmin;
+    margin:  3vmin 4vmin 10vmin;
     padding: 1vmin;
     display: inline-block;
     width: 20vmin;
@@ -89,14 +100,49 @@
     height: 14vmin;
 }
 .main_block_1 p {
-    padding-top: 1rem;
+    padding-top: 5vmin;
 }
 
 .main_block_2 {
+    z-index: 1;
     background: rgb(131,176,154);
     height: 6vmin;
     font-size: 2vh;
 }
+
+.main_block span{
+    z-index: 0;
+    position: relative;
+    top: -1vmin;
+    display: inline-block;
+    width: 3.75vmin;
+    padding: 2vmin 0;
+
+    margin-left: 1px;
+
+    background:  url("img/sprite.png") no-repeat white;
+    background-size: 400%;
+    opacity: 0;
+}
+
+.main_block div:hover ~ span {
+    opacity: 1;
+    transition: .2s;
+    -webkit-transition: .2s;
+    transform: translateY(5vmin);
+    -webkit-transform: translateY(5vmin);
+}
+
+.main_block .police {
+    background-position: 0 50%;
+}
+.main_block .sniper {
+    background-position: 33.3% 50%;}
+.main_block .doctor {
+    background-position: 99.9% 50%;}
+.main_block .killer {
+    background-position: 66.6% 50%;}
+
 
 .main_empty {
     height: 30vw;
