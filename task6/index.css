@@ -14,7 +14,6 @@
 
 .header {
     width: 100%;
-    max-width: 640px;
     background: rgb(41,190,223);
     color: white;
     font-weight: 500;
@@ -39,7 +38,6 @@
 
 .main {
     width: 100%;
-    max-width: 640px;
     background: rgb(41,190,223);
     color: white;
     font-weight: 400;
@@ -61,7 +59,6 @@
     margin: 1.5vh 2vh;
     height: 5vh;
     float: right;
-
 }
 
 .main_content {
@@ -137,11 +134,16 @@
     background-position: 0 50%;
 }
 .main_block .sniper {
-    background-position: 33.3% 50%;}
+    background-position: 33.3% 50%;
+}
+
 .main_block .doctor {
-    background-position: 99.9% 50%;}
+    background-position: 99.9% 50%;
+}
+
 .main_block .killer {
-    background-position: 66.6% 50%;}
+    background-position: 66.6% 50%;
+}
 
 
 .main_empty {
@@ -150,7 +152,6 @@
 
 .footer {
     width: 100%;
-    max-width: 640px;
     position: fixed;
     bottom: 0;
     background: rgb(41,190,223);
