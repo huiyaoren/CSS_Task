@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    max-width: 1920px;
+}
+
+.header {
+}
+
+.header_line {
+    height: 2.083vw;
+    background: white;
+}
+
+.header_nav {
+    height: 5.208vw;
+    background: #29b078;
+}
+
+.banner {
+    height: 31.250vw;
+    background: black;
+}
+
+.content {
+    height: 101.042vw;
+    background: #fafafa;
+}
+
+.content_introduce {}
+
+.content_learn {}
+
+.content_classmate {}
+
+.content_workmate {}
+
+.friend {
+    height: 7.031vw;
+    background: white;
+}
+
+.footer {
+    height: 10.417vw;
+    background: #26a26f;
+}

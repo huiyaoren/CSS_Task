@@ -96,6 +96,7 @@
     color: black;
     height: 14vmin;
 }
+
 .main_block_1 p {
     padding-top: 5vmin;
 }
@@ -134,15 +135,15 @@
     background-position: 0 50%;
 }
 .main_block .sniper {
-    background-position: 33.3% 50%;
+    background-position: 33.33% 50%;
 }
 
 .main_block .doctor {
-    background-position: 99.9% 50%;
+    background-position: 99.99% 50%;
 }
 
 .main_block .killer {
-    background-position: 66.6% 50%;
+    background-position: 66.66% 50%;
 }
 
 
