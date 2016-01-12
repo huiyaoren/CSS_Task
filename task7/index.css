@@ -2,19 +2,30 @@
     padding: 0;
     border: 0;
     margin: 0;
+    font-family: 'Microsoft Yahei', sans-serif;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .container {
+    margin: 0 auto;
     width: 100vw;
-    max-width: 1920px;
 }
 
 .header {
 }
 
 .header_line {
+    padding-left: 18.750vw;
     height: 2.083vw;
     background: white;
+}
+
+.header_line p {
+    padding-top: 0.521vw;
+    font-size: 1rem;
+    color: #29b078;
+    text-align: left;
 }
 
 .header_nav {
@@ -23,7 +34,7 @@
 }
 
 .banner {
-    height: 31.250vw;
+    height: 31.25vw;
     background: black;
 }
 
@@ -48,4 +59,12 @@
 .footer {
     height: 10.417vw;
     background: #26a26f;
+}
+
+.footer_last {
+    height: 1.563vw;
+}
+
+.footer_last p {
+    color: white;
 }
