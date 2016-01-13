@@ -7,6 +7,10 @@
     text-align: center;
 }
 
+html {
+    font-size: 5.2083vw;
+}
+
 .container {
     margin: 0 auto;
     width: 100vw;
@@ -17,20 +21,38 @@
 
 .header_line {
     padding-left: 18.750vw;
+    padding-right: 18.750vw;
     height: 2.083vw;
     background: white;
 }
 
+.header_line img {
+    padding-top: 0.3646vw;
+    padding-left: 0.8333vw;
+    float: right;
+    height: 1.25vw;
+}
+
 .header_line p {
     padding-top: 0.521vw;
-    font-size: 1rem;
+    font-size: 0.14rem;
     color: #29b078;
     text-align: left;
 }
 
 .header_nav {
     height: 5.208vw;
+    padding-right: 17.1875vw;
     background: #29b078;
+    text-align: right;
+}
+
+.header_nav_tag {
+    display: inline-block;
+    color: white;
+    font-weight: 900;
+    font-size: 0.14rem;
+    width: 5.2083vw;
 }
 
 .banner {
