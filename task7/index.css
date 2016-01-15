@@ -6,87 +6,203 @@
     vertical-align: middle;
     text-align: center;
 }
-
 html {
     font-size: 5.2083vw;
 }
+h1 {font-size: 0.18rem;}
+h2 {font-size: 0.16rem;}
+h3 {font-size: 0.14rem;}
 
 .container {
+    display: block;
     margin: 0 auto;
     width: 100vw;
 }
-
 .header {
 }
 
+/*height: 40px;*/
 .header_line {
     padding-left: 18.750vw;
     padding-right: 18.750vw;
     height: 2.083vw;
     background: white;
 }
-
 .header_line img {
     padding-top: 0.3646vw;
     padding-left: 0.8333vw;
     float: right;
     height: 1.25vw;
+    cursor: pointer;
 }
-
 .header_line p {
     padding-top: 0.521vw;
     font-size: 0.14rem;
     color: #29b078;
     text-align: left;
 }
-
+/*height: 100px;*/
 .header_nav {
-    height: 5.208vw;
+    overflow: hidden;
     padding-right: 17.1875vw;
     background: #29b078;
     text-align: right;
 }
 
-.header_nav_tag {
-    display: inline-block;
-    color: white;
-    font-weight: 900;
-    font-size: 0.14rem;
+
+.header_nav div {
+    padding: 2.1875vw 0;
     width: 5.2083vw;
+    display: inline;
+    float: right;
+    color: white;
+    font-weight: 500;
+    font-size: 0.16rem;
+    cursor: pointer;
 }
 
+.header_nav_now {
+    border-bottom: solid 4px white;
+}
+
+.header_nav_tag:hover {
+    border-bottom: solid 4px white;
+}
+
+
+/*height: 600px;*/
 .banner {
+    clear: both;
     height: 31.25vw;
     background: black;
 }
 
+.banner_middle {
+    padding-top: 29.1667vw;
+    width: 3.490vw;
+}
+
 .content {
     height: 101.042vw;
+    padding-top: 8.5938vw; /* 165px */
     background: #fafafa;
 }
 
-.content_introduce {}
+.content_introduce {
 
-.content_learn {}
+}
 
+
+.content_introduce div img {
+    position: relative;
+    top: 0;
+    height: 2.8646vw;
+}
+
+.content_introduce div p {
+    color: rgb(150,150,150);
+    text-align: left;
+    font-size: 0.16rem;
+}
+
+.content_introduce_rocket,
+.content_introduce_books,
+.content_introduce_people {
+    padding: 0 1.3021vw;
+    vertical-align: top;
+    width: 13.5417vw;/* 260px */
+    display: inline-block;
+}
+
+.content_introduce_intro {
+    display: inline-block;
+    padding: 0 1.3021vw;
+    border-left: solid 1px rgb(150,150,150);
+}
+.content_introduce_intro h1 {
+    color: ;
+    text-align: left;
+}
+
+.content_learn {
+    padding-top: ;
+}
 .content_classmate {}
-
 .content_workmate {}
 
+/*height: 135px;*/
 .friend {
-    height: 7.031vw;
+    font-size: 0;
+    padding: 1.042vw 16vw 0.3vw;
     background: white;
 }
+.friend a {
+    margin: 0;
+    display: inline-block;
+    width: 6.510vw;
+    font-size: 0.14rem;
+    vertical-align: top;
+    text-align: left;
+    margin-bottom: 0.781vw;
+}
 
+.friend h1 {
+    margin-bottom: 1.042vw;
+}
+/*height: 200px;*/
 .footer {
-    height: 10.417vw;
     background: #26a26f;
 }
+.footer_links {
+    padding-top: 0.782vw;
+    padding-right: 18.23vw;
+}
+.footer_links div {
 
-.footer_last {
-    height: 1.563vw;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer_links h2 {
+    text-align: left;
+    color: white;
+    font-weight: 400;
+}
+.footer_links p {
+    text-align: left;
+    color: white;
+    font-size: 0.14rem;
+}
+.footer_links a {
+    cursor: pointer;
+}
+.footer_links a:hover {
+    border-bottom: solid 1px white;
+}
+.footer_links_1 {
+    margin-right: 8.073vw;
+}
+.footer_links_1 p {
+    margin-top: 3.5vw;
+}
+.footer_links_2 p {
+    margin-top: 1.2vw;
+}
+.footer_links_3 {
+    float: right;
+}
+#wechat_bar {
+    margin-top: 5px;
+    vertical-align: top;
+    width: 4.948vw;
 }
 
+/*height: 30px;*/
+.footer_last {
+    clear: both;
+    padding: 0.46875vw 0;/* 9px */
+    border-top: solid 1px #32c086;
+}
 .footer_last p {
+    font-size: 0.12rem;
     color: white;
 }
